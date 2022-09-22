@@ -26,7 +26,7 @@ namespace AutoGetInfoAndSendMessage
         private System.Threading.Timer timerWork;
         private FileSystemWatcher watcher = null;
         private const string DataFileName = "data";
-        private const string HomeURL = "https://bankomat.sc/";
+        private const string HomeURL = "https://bankomat.cm";
         private bool isRunning = false;
         private bool isSendMessageError = false;
         private string torDomain;
